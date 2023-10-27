@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>✨YouTube to MP4 Converter✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="app">
+        <h1 class="logo">YouTube to MP4 Converter</h1>
+        <div class="content" id="content">
+            <h2 class="content_title">✨Download YouTube Videos✨</h2>
+            <p class="content_description">Paste the full YouTube video URL to download it (no playlists)</p>
+            <div class="form" id="form">
+                <input type="text" id="searchInput" placeholder="Paste YouTube Video URL">
+                <button id="searchbutton" onclick="downloadVideo()">Download Video</button>
+            </div>
+        </div>
+        <div class="video-container" id="videoContainer"></div>
+    </div>
+    <div class="banner">
+        Made with 💖 in Romania by Lucian (Try the <a id="othersitelink" href="https://yt-mp3-converter.vercel.app/" target="_blank" rel="noopener noreferrer">YouTube to MP3 Converter</a>, it does not contain ads)
+    </div>
+</body>
+</html>
